@@ -2,7 +2,7 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse('У меня получилось!!YES!')
+    return HttpResponse('У меня получилось!!TOKEN_TELEGRAM')
 
 
 def second_page(request):
